@@ -6,7 +6,7 @@ import json
 from tinydb import TinyDB, Query
 
 
-bot = telebot.TeleBot('6236893434:AAEQO3bukIPCHkhhtqdjHDqYgFkR1XLJ5Pw')
+bot = telebot.TeleBot('')
 
 user_data = {}
 db = TinyDB('answers_db.json')
